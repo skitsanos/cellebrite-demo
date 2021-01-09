@@ -1,0 +1,22 @@
+{
+  "name": "cellebrite-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Skitsanos",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "run": "umi dev"
+  },
+  "dependencies": {
+    "@alicloud/cloud-charts": "^0.1.9",
+    "@ant-design/icons": "^4.3.0",
+    "ahooks": "^2.9.3",
+    "antd": "^4.10.0",
+    "is-mobile": "^2.2.2",
+    "react": "^17.0.1",
+    "react-entities": "^1.2.2",
+    "umi": "^3.3.4",
+    "umi-request": "^1.3.5"
+  }
+}

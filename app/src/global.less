@@ -1,0 +1,68 @@
+@import "~antd/dist/antd.less";
+@import (css) url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans:300,400&display=swap');
+
+@font-family: 'IBM Plex Sans', sans-serif;
+@code-family: 'IBM Plex Mono', Menlo, Courier, monospace;
+@font-weight-light: 300;
+@font-weight-normal: 400;
+
+html {
+  font-family: @font-family;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+
+  > .ant-layout {
+    flex: 1;
+  }
+
+  .logo{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .app-sidebar {
+    overflow: auto;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+  }
+}
+
+#root .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#root .trigger:hover {
+  color: #1890ff;
+}
+
+#root .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 16px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.scrollable {
+  overflow-y: auto;
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
