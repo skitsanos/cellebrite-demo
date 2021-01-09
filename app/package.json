@@ -6,7 +6,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "run": "umi dev"
+    "run": "umi dev",
+    "build:prod": "NODE_ENV=production umi build",
+    "deploy": "netlify deploy --prod"
   },
   "dependencies": {
     "@alicloud/cloud-charts": "^0.1.9",
