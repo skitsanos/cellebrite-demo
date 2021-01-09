@@ -1,0 +1,7 @@
+.idea/
+.git/
+.svn/
+.hg/
+*.swp
+.DS_Store
+./node_modules/
