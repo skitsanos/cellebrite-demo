@@ -15,8 +15,21 @@ module.exports = {
 
         try
         {
-
-            dataQuery = JSON.parse(decodeURI(q));
+            const payload = decodeURI(q);
+            if (payload.trim().startsWith('{'))
+            {
+                dataQuery = JSON.parse(payload);
+            }
+            else
+            {
+                dataQuery = [
+                    {
+                        key: 'serial',
+                        op: '?',
+                        value: `%${q}%`
+                    }
+                ];
+            }
             //console.log(dataQuery)
         } catch (e)
         {
@@ -25,11 +38,13 @@ module.exports = {
                 : [
                     {
                         key: 'serial',
-                        op: '%',
+                        op: '?',
                         value: `%${q}%`
                     }
                 ];
         }
+
+        console.log(dataQuery);
 
         const queryResult = query`      
          LET skip=${Number(skip)}
