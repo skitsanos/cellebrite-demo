@@ -44,8 +44,6 @@ module.exports = {
                 ];
         }
 
-        console.log(dataQuery);
-
         const queryResult = query`      
          LET skip=${Number(skip)}
          LET pageSize=${Number(pageSize)}
