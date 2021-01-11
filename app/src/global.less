@@ -6,6 +6,19 @@
 @font-weight-light: 300;
 @font-weight-normal: 400;
 
+.rotate {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 html {
   font-family: @font-family;
 }
@@ -23,7 +36,7 @@ body {
     flex: 1;
   }
 
-  .logo{
+  .logo {
     color: #fff;
     display: flex;
     align-items: center;
