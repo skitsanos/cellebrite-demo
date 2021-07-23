@@ -1,6 +1,8 @@
 import {defineConfig} from 'umi';
 
 export default defineConfig({
+    mfsu: {},
+
     // ssr: {},
     dynamicImport: {
         loading: '@/components/Loading'

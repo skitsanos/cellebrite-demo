@@ -19,6 +19,7 @@
     "react": "^17.0.1",
     "react-entities": "^1.2.2",
     "umi": "^3.3.4",
-    "umi-request": "^1.3.5"
+    "umi-request": "^1.3.5",
+    "webpack": "^5.46.0"
   }
 }
