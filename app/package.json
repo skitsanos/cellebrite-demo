@@ -13,7 +13,7 @@
   "dependencies": {
     "@alicloud/cloud-charts": "^0.1.9",
     "@ant-design/icons": "^4.3.0",
-    "ahooks": "^2.9.3",
+    "ahooks": "^3.7.1",
     "antd": "^4.10.0",
     "is-mobile": "^2.2.2",
     "react": "^17.0.1",
