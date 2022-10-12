@@ -11,7 +11,7 @@
     "deploy": "netlify deploy --prod"
   },
   "dependencies": {
-    "@alicloud/cloud-charts": "^0.1.9",
+    "@alicloud/cloud-charts": "^1.0.23",
     "@ant-design/icons": "^4.3.0",
     "ahooks": "^2.9.3",
     "antd": "^4.10.0",
