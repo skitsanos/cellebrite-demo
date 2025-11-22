@@ -14,7 +14,7 @@
     "@alicloud/cloud-charts": "^1.0.23",
     "@ant-design/icons": "^6.0.0",
     "ahooks": "^3.7.1",
-    "antd": "^5.0.0",
+    "antd": "^6.0.0",
     "is-mobile": "^5.0.0",
     "react": "^19.0.0",
     "react-entities": "^1.2.2",
